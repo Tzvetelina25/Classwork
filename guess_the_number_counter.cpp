@@ -9,7 +9,7 @@ int main()
     cout<<"Enter the interval: ";
     cin>>a>>b;
     srand(time(0)); //seed random number generator
-    int num = rand() % (b-a+1) + a; // random number
+    int num = rand() % (b-a+1) + a; // random number between a and b
     cout << "Guess My Number Game"<<endl;
 
     int guess = 0,counter=0;
